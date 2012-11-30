@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit and send bridge message</title>
+</head>
+<body>
+    <div>
+        <h5>Message name</h5>
+        <input type="text" id="message_name" size="64">
+    </div>
+    <div>
+        <h5>Message headers</h5>
+        <div id="headers"></div>
+        <input type="button" id="add_header" value="Add">&nbsp;
+        <input type="button" id="clear_headers" value="Clear">
+    </div>
+    <div>
+        <h5>Message body parts</h5>
+        <div id="body_parts"></div>
+        <input type="button" id="add_body_part" value="Add">&nbsp;
+        <input type="button" id="clear_body_parts" value="Clear">
+    </div>
+    <div>
+        <input type="text" id="address" size="32">&nbsp;
+        <input type="button" id="send" value="Send">
+    </div>
+</body>
+</html>
